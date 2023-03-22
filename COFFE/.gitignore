@@ -1,0 +1,87 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+#files generated for hspic
+
+
+#output files
+*.out
+*.err
+
+#temp files
+*~
+
+#output folder contents
+results/*
+run_scripts/*
+outputs/*
+
+#temporary files
+*.fuse_hidden*
+
+
+#ignore results
+input_files/bulk_example/
+input_files/*
+!input_files/CIM/
+input_files/CIM/RAM16_CIM/*
+input_files/CIM/RAM32_CIM/*
+!input_files/*/*.txt
+!input_files/*/*/*.v
+
+sainity_check/sainity_check/
+
+# hspice_extract file not used anywhere in the code
+# should be deleted later
+coffe/hspice_extract.py
