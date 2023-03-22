@@ -73,6 +73,7 @@ outputs/*
 
 #ignore results
 input_files/bulk_example/
+input_files/*
 !input_files/CIM/
 input_files/CIM/RAM16_CIM/*
 input_files/CIM/RAM32_CIM/*
