@@ -295,6 +295,8 @@ class DLA_BRAMAC(object):
         self.num_multiplier_per_dsp = {2: 8, 4: 4, 8: 2} 
         
         self.num_mac_per_bramac_per_iter = {2: bram_dwidth//2*4, 4: bram_dwidth//4*4, 8: bram_dwidth//8*4}
+        # Due to Relu activation, the input activation is always unsigned. Hence, BRAMAC-2SA can save 1 inverting cycle 
+        # for MAC2 compared to using 2's compelment input activation.
         self.bramac_num_cycle_per_iter   = {2: 4,  4: 6,  8: 10}
         self.dsp_num_idle_cycle_per_iter = {2: 4,  4: 6,  8: 10}
         
