@@ -826,7 +826,7 @@ for precision in precision_list:
     
     
 
-with open('bramac_2sa_speedup.txt', 'w') as f:
+with open('bramac_2sa_' + nn_type + '_speedup.txt', 'w') as f:
     f.write('DLA Configuration \n\n')
     f.write('Prec'.ljust(8) + 'qvec'.ljust(6) + 'cvec'.ljust(6) + 'kvec'.ljust(6) + 
             'num_dsp'.ljust(10) + 'num_bram'.ljust(11) + '\n')
