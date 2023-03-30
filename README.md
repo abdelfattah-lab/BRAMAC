@@ -13,8 +13,6 @@ The first artifact, **COFFE-CIM**, is a modified version of COFFE (https://githu
 
 The second artifact, **dlabramac**, is a cycle-accurate simulator to compare the performance of Intel's Deep Learning Accelerator (Aydonat et al., FPGA'17; Abdelfattah et al., FPL'18) with and without employing BRAMAC. Two popular concolutional neural networks, AlexNet and ResNet-34 are evaluated (described in Section VI-D of the paper). 
 
-The second artifact, **dlabramac**, is a cycle-accurate simulator to compare the performance of Intel's Deep Learning Accelerator (Aydonat et al., FPGA'17; Abdelfattah et al., FPL'18) with and without employing BRAMAC. Two popular concolutional neural networks, AlexNet and ResNet-34 are evaluated (described in Section VI-D of the paper). 
-
 The third artifact, **synopsys**, contains the systemVerilog scripts to model and synthesize the embedded finite-state machines (eFSMs) that control BRAMAC's in-memory MAC2 operation. In addition to Synopsys Design COmpiler, TSMC 28nm techonology PDK is required for synthesize the eFSMs. We are not able to disclose any information about the technology PDK due to non-disclosure agreement with the third party. But we encourage users to synthesize the systemVerilog using their commercial or free PDKs or an FPGA CAD flow such as Intel Quartus to extimate the area cost of the eFSMs, which can be negligible compared to the dummy array area overhead (described in Section V-A and Section V-C of the paper).
 
 ## Tested Environment & Dependencies
