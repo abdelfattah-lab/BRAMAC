@@ -42,6 +42,12 @@ There are 3 tasks required to collect the area, frequency, and performance of BR
 3. Run synopsys design compiler to obtain the area of the embedded finite-state machines in BRAMAC.
 
 ## 1. Running COFFE-CIM
+Before running this experiment, please make sure that the following command:
+ ```
+hspice
+```
+can be run successfully in the current terminal. If not, please set up the hspice environment in the terminal. 
+
 COFFE-CIM can report the area and delay of all components in BRAMAC by running the following commands inside the BRAMAC repository:
  ```
  cd COFFE-CIM
