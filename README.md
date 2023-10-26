@@ -95,4 +95,4 @@ In addition to setting up the target library, the link library, the user can add
  report_area -nosplit -hierarchy
  report_power -nosplit -hierarchy
  ```
-After running Synopsys Design COmpiler with the above tcl setup file, the area of the embedded finite-state machine will be reported. 
+After running Synopsys Design Compiler with the above tcl setup file, the area of the embedded finite-state machine will be reported. 
