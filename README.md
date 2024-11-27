@@ -3,8 +3,8 @@
 
 This github repository contains necessary artifacts for our paper: 
 >Y. Chen, and M. Abdelfattah,
->"**BRAMAC: Compute-in-BRAM Architectures for Multiply-Accumulate on FPGAs**",
->to appear in _Proceedings of the 31st IEEE International Symposium On Field-Programmable Custom Computing Machines (FCCM)_, May 2023.
+>"**[BRAMAC: Compute-in-BRAM Architectures for Multiply-Accumulate on FPGAs](https://arxiv.org/abs/2304.03974)**",
+>_Proceedings of the 31st IEEE International Symposium On Field-Programmable Custom Computing Machines (FCCM)_, May 2023.
 
 ## Overview
 This repository includes three folders corresponding to three artifacts, respectively that capture the area, frequency, and performance of BRAMAC, a compute-in-BRAM architecture that can support efficient multiply-accumulate on FPGAs. 
@@ -96,3 +96,7 @@ In addition to setting up the target library, the link library, the user can add
  report_power -nosplit -hierarchy
  ```
 After running Synopsys Design Compiler with the above tcl setup file, the area of the embedded finite-state machine will be reported. 
+
+-----------------
+
+_This work is subject to a patent application filed by Cornell University._
